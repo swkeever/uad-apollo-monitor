@@ -21,10 +21,10 @@ UAD Apollo Monitor checks every 5 minutes if your Apollo interface is connected 
 
 ## Installation
 
-1. Clone this repository:
+1. Clone this repository to `~/.config/`:
 ```bash
-git clone https://github.com/YOUR_USERNAME/apollo-monitor.git
-cd apollo-monitor
+git clone https://github.com/YOUR_USERNAME/apollo-monitor.git ~/.config/apollo-monitor
+cd ~/.config/apollo-monitor
 ```
 
 2. Run the install script:

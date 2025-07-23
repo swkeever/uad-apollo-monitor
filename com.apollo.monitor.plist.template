@@ -7,7 +7,7 @@
     
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/seankeever/.config/apollo-monitor/apollo-monitor.sh</string>
+        <string>{{APOLLO_MONITOR_PATH}}/apollo-monitor.sh</string>
     </array>
     
     <key>StartInterval</key>
