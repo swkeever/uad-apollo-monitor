@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Installing Apollo Monitor..."
+echo "Installing UAD Apollo Monitor..."
 
 # Copy plist to LaunchAgents
 cp ~/.config/apollo-monitor/com.apollo.monitor.plist ~/Library/LaunchAgents/
@@ -8,7 +8,7 @@ cp ~/.config/apollo-monitor/com.apollo.monitor.plist ~/Library/LaunchAgents/
 # Load the agent
 launchctl load ~/Library/LaunchAgents/com.apollo.monitor.plist
 
-echo "✓ Apollo Monitor installed and started"
+echo "✓ UAD Apollo Monitor installed and started"
 echo "  - Checks every 5 minutes"
 echo "  - Logs: ~/.config/apollo-monitor/apollo-monitor.log"
 echo ""

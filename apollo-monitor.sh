@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Apollo Twin X Monitor Script
+# UAD Apollo Monitor Script
 # Closes UAD apps when Apollo Twin X is not connected
 
 # Check if Apollo Twin X is connected via Thunderbolt

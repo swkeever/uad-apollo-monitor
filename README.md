@@ -1,4 +1,4 @@
-# Apollo Monitor
+# UAD Apollo Monitor
 
 Automatically close Universal Audio apps when your Apollo interface is disconnected to save battery life on macOS.
 
@@ -11,7 +11,7 @@ UAD Console and UAD Meter & Control Panel consume significant system resources e
 
 ## The Solution
 
-Apollo Monitor checks every 5 minutes if your Apollo interface is connected via Thunderbolt. When disconnected, it automatically closes UAD Console and UAD Meter & Control Panel, while keeping the UA Mixer Engine running for quick reconnection.
+UAD Apollo Monitor checks every 5 minutes if your Apollo interface is connected via Thunderbolt. When disconnected, it automatically closes UAD Console and UAD Meter & Control Panel, while keeping the UA Mixer Engine running for quick reconnection.
 
 ## Requirements
 
@@ -32,7 +32,7 @@ cd apollo-monitor
 ./install.sh
 ```
 
-That's it! Apollo Monitor will now run automatically in the background.
+That's it! UAD Apollo Monitor will now run automatically in the background.
 
 ## Usage
 
@@ -60,7 +60,7 @@ tail -f ~/.config/apollo-monitor/apollo-monitor.log
 
 ## Configuration
 
-By default, Apollo Monitor checks every 5 minutes. To change this:
+By default, UAD Apollo Monitor checks every 5 minutes. To change this:
 
 1. Edit `com.apollo.monitor.plist`
 2. Change the `StartInterval` value (in seconds)
