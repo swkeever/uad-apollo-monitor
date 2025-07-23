@@ -18,11 +18,5 @@
     
     <key>KeepAlive</key>
     <false/>
-    
-    <key>StandardOutPath</key>
-    <string>/Users/seankeever/.config/apollo-monitor/apollo-monitor.log</string>
-    
-    <key>StandardErrorPath</key>
-    <string>/Users/seankeever/.config/apollo-monitor/apollo-monitor.error.log</string>
 </dict>
 </plist>

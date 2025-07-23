@@ -48,11 +48,6 @@ The service runs automatically, but you can also:
 launchctl list | grep apollo
 ```
 
-### View logs
-```bash
-tail -f ~/.config/apollo-monitor/apollo-monitor.log
-```
-
 ### Uninstall
 ```bash
 ./uninstall.sh
@@ -73,7 +68,7 @@ By default, UAD Apollo Monitor checks every 5 minutes. To change this:
    - `killall "UAD Console"`
    - `killall "UAD Meter & Control Panel"`
 3. Preserves UA Mixer Engine for quick reconnection
-4. Logs all actions to `apollo-monitor.log` with automatic rotation (1MB limit, keeps 5 compressed backups)
+4. Runs silently in the background
 
 ## Battery Impact
 
