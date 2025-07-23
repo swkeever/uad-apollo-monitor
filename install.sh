@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo "Installing Apollo Monitor..."
+
+# Copy plist to LaunchAgents
+cp ~/.config/apollo-monitor/com.apollo.monitor.plist ~/Library/LaunchAgents/
+
+# Load the agent
+launchctl load ~/Library/LaunchAgents/com.apollo.monitor.plist
+
+echo "✓ Apollo Monitor installed and started"
+echo "  - Checks every 5 minutes"
+echo "  - Logs: ~/.config/apollo-monitor/apollo-monitor.log"
+echo ""
+echo "To check status: launchctl list | grep apollo"
+echo "To uninstall: ~/.config/apollo-monitor/uninstall.sh"
