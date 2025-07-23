@@ -73,7 +73,7 @@ By default, UAD Apollo Monitor checks every 5 minutes. To change this:
    - `killall "UAD Console"`
    - `killall "UAD Meter & Control Panel"`
 3. Preserves UA Mixer Engine for quick reconnection
-4. Logs all actions to `apollo-monitor.log`
+4. Logs all actions to `apollo-monitor.log` with automatic rotation (1MB limit, keeps 5 compressed backups)
 
 ## Battery Impact
 
