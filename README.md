@@ -81,7 +81,7 @@ By default, UAD Apollo Monitor checks every 5 minutes. To change this:
 - Savings from closing UAD apps: 5-15% battery per hour
 - Net benefit: Significant battery life improvement
 
-![Battery Level Chart showing improved battery life with UAD Apollo Monitor](./images/battery-level.png)
+![Battery Level Chart showing improved battery life with UAD Apollo Monitor](./images/battery-chart.png)
 
 ## Supported Devices
 
